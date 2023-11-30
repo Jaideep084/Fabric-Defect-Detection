@@ -2,7 +2,7 @@
 This Python script utilizes OpenCV, NumPy, and Tkinter to create a simple graphical user interface (GUI) for fabric defect detection. The fabric defect detection algorithm is applied to an input image, and the results are displayed using Tkinter.
 
 ## Table of contents 
-Requirements  
+<br>Requirements  
 <br>Defect Detection Algorithm
 <br>File Selection
 <br>Result Display
@@ -30,7 +30,6 @@ The script utilizes Tkinter to create a simple GUI with a "Browse Image" button.
 
 ## Result Display
 After selecting an image, the script creates a new Tkinter window displaying the following:
-
  ### Input Image: The original input image is displayed in the window.
  ### Defective Regions: If defects are detected, the script highlights these regions in the image and displays the result.
 <br>Note: The script assumes that a fabric is defective if the dilated binary mask has more than one non-zero pixel. The contours of defective regions are drawn in green.
